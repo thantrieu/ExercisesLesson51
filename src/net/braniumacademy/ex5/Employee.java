@@ -1,4 +1,4 @@
-package net.braniumacademy.ex4;
+package net.braniumacademy.ex5;
 
 import java.util.Date;
 

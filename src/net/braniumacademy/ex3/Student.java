@@ -78,7 +78,6 @@ public class Student extends Person {
 
     @Override
     public void work() {
-        super.work();
         System.out.println("Sinh viên đang làm thêm ở quán kem");
     }
 

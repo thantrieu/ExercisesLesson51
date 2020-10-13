@@ -7,9 +7,10 @@ public class Test {
     public static void main(String[] args) throws ParseException {
         var format = "dd/MM/yyyy"; // date format
         var dateFormat = new SimpleDateFormat(format);
-        Person person = new Person("09167875426", "Tony Stark",
-                "107 Malibu", dateFormat.parse("27/10/2005"),
-                "ironman@xmail.com", "0123456789");
+        // ERROR!
+//        Person person = new Person("09167875426", "Tony Stark",
+//                "107 Malibu", dateFormat.parse("27/10/2005"),
+//                "ironman@xmail.com", "0123456789");
 
         Instructor myInstructor = new Instructor("09167875426", "Tony Stark",
                 "107 Malibu", dateFormat.parse("27/10/2005"),
@@ -29,11 +30,11 @@ public class Test {
                 1500000.25f, "Google Inc", "IT Engineer");
 
         // gọi phương thức hiển thị thông tin các đối tượng trên
-        System.out.println("\n==== THÔNG TIN NGƯỜI ====");
-        showPerson(person);
-        person.eat("Cá luộc");
-        person.relax("Đá banh");
-        person.sleep();
+//        System.out.println("\n==== THÔNG TIN NGƯỜI ====");
+//        showPerson(person);
+//        person.eat("Cá luộc");
+//        person.relax("Đá banh");
+//        person.sleep();
 
         System.out.println("\n==== THÔNG TIN GIẢNG VIÊN ====");
         showInstructor(myInstructor);

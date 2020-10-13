@@ -72,7 +72,6 @@ public class Instructor extends Person {
 
     @Override
     public void work() {
-        super.work();
         System.out.println("Giảng viên đang giảng dạy trên lớp");
     }
 

@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * lớp mô tả thông tin người
  */
-public class Person {
+public abstract class Person {
     private String id; // số chứng minh thư/căn cước
     private FullName fullName; // họ tên đầy đủ
     private String address; // địa chỉ
@@ -99,9 +99,7 @@ public class Person {
         System.out.println("Người đang giải trí bằng " + thing);
     }
 
-    public void work() {
-        System.out.println("Người đang làm việc");
-    }
+    protected abstract void work(); // phương thức abstract
 
     class FullName {
         private String first;
